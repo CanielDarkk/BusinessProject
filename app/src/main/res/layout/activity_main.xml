@@ -9,14 +9,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Daniel Clark - 02daniel.clark@gulllakecs.org!"
+        android:text="https://02danielclark.wixsite.com/eportfolio"
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.994" />
+        app:layout_constraintVertical_bias="0.983" />
+
+    <ImageView
+        android:id="@+id/minecraft_cover"
+        android:src="@drawable/minecraftbackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,12 +43,12 @@
         android:layout_height="wrap_content"
         android:text="Selling for the low price of $26.95"
         android:textColor="@color/colorPrimary"
-        android:textSize="18"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
+        app:layout_constraintVertical_bias="0.274" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -59,13 +67,11 @@
         android:layout_height="wrap_content"
         android:text="MINECRAFT!"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="25"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.053" />
-
+        app:layout_constraintVertical_bias="0.091" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
